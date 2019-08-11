@@ -1,0 +1,5 @@
+name: "Dad"
+latitude: !secret padre_lat
+longitude: !secret padre_long
+radius: 100
+icon: mdi:account-multiple-outline1

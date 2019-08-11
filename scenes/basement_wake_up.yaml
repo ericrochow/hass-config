@@ -1,0 +1,10 @@
+#name: 'Basement wake up'
+#entities:
+#  light.basement_couch_corner:
+#    state: on
+#    brightness: 255
+#    color_temp: 222
+#  light.basement_couch_left:
+#    state: on
+#    brightness: 255
+#    color_temp: 222

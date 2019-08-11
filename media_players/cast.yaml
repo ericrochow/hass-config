@@ -1,0 +1,2 @@
+platform: cast
+host: !secret cast_host

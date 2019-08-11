@@ -1,0 +1,2 @@
+ssl_certificate: !secret ssl_cert_location
+ssl_key: !secret ssl_key_location

@@ -1,0 +1,10 @@
+#name: 'Basement relax'
+#entities:
+#  light.basement_couch_corner:
+#    state: on
+#    brightness: 200
+#    color_temp: 371
+#  light.basement_couch_left:
+#    state: on
+#    brightness: 200
+#    color_temp: 371

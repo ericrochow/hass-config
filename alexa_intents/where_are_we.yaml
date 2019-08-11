@@ -1,0 +1,11 @@
+WhereAreWeIntent:
+  speech:
+    type: plaintext
+    text: >
+      {%- if is_state('device_tracker.eric', 'Home') and
+             is_state('device_tracker.mary', 'Home') -%}
+        You are both home, you silly
+      {%- else -%}
+        Mary is at {{ states("device_tracker.mary") }} and
+        Eric is at {{ states("device_tracker.eric") }}
+      {% endif %}

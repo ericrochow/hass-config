@@ -1,0 +1,24 @@
+#alias: 'Wake Up!'
+#   trigger:
+#     - platform: state
+#       entity_id: group.family
+#       state: 'home'
+#     - platform: state
+#       entity_id: sun.sun
+#       state: 'below_horizon'
+#     - platform: state
+#       entity_id: light.basement_hall
+#       state: on
+#   condition:
+#      - platform: state
+#        entity_id: group.family
+#        state: 'home'
+#      - platform: state
+#        entity_id: sun.sun
+#        state: 'below_horizon'
+#      - platform: state
+#        entity_id: light.basement_hall
+#        state: on
+#   action:
+#      service: scene.turn_on
+#      entity_id: scene.basement_wake_up

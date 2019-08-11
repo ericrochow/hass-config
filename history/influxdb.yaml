@@ -1,0 +1,7 @@
+influxdb:
+  host: !secret influxhost
+  port: 8086
+  username: !secret influx_username
+  password: !secret influx_password
+  database: !secret influx_db
+

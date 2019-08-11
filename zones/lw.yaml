@@ -1,0 +1,5 @@
+name: "Liquid Web"
+latitude: !secret lw_lat
+longitude: !secret lw_long
+radius: 250
+icon: mdi:cloud

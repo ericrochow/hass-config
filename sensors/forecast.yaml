@@ -1,0 +1,15 @@
+platform: forecast
+api_key: !secret forecast_api_key
+monitored_conditions:
+  - summary
+  - precip_type
+  - precip_intensity
+  - temperature
+  - dew_point
+  - wind_speed
+  - wind_bearing
+  - cloud_cover
+  - humidity
+  - pressure
+  - visibility
+  - ozone

@@ -1,0 +1,13 @@
+platform: nest
+monitored_conditions:
+- 'temperature'
+- 'target'
+- 'mode'
+- 'humidity'
+- 'battery_level'
+- 'operation_mode'
+- 'weather_condition'
+- 'weather_temperature'
+- 'weather_humidity'
+- 'smoke_status'
+- 'co_status'

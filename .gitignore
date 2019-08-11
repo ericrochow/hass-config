@@ -1,0 +1,9 @@
+# vim-specific files
+tags
+
+# Backups
+*.orig
+*.bak
+
+# Secrets
+secrets.yaml

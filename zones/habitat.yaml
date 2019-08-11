@@ -1,0 +1,5 @@
+name: "HHMI"
+latitude: !secret hhmi_lat
+longitude: !secret hhmi_long
+radius: 250
+icon: mdi:worker

@@ -1,0 +1,3 @@
+platform: mqtt
+name: "Eric Rochow"
+state_topic: "topic=owntracks/erochow/EricPhone"

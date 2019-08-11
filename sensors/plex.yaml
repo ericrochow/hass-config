@@ -1,0 +1,7 @@
+platform: plex
+name: Plex Spy
+host: !secret plex_host
+port: 32400
+username: !secret plex_user
+password: !secret plex_password
+server: orwell
