@@ -1,0 +1,58 @@
+#Assembled with help from https://github.com/Teagan42/HomeAssistantConfig
+homeassistant:
+  name: Home
+  latitude: 42.7422
+  longitude: -84.5255
+  unit_system: imperial
+  time_zone: America/Detroit
+
+secrets: !include secrets.yaml
+
+http: !include http.yaml
+
+mqtt: !include mqtt.yaml
+
+device_tracker: !include tracker.yaml
+
+light: !include_dir_list lights
+
+nest: !include nest.yaml
+
+climate: !include_dir_list climate
+
+influxdb: !include history/influxdb.yaml
+
+media_player: !include_dir_list media_players
+
+sensor: !include_dir_list sensors
+
+alexa:
+  intents: !include_dir_named alexa_intents
+
+zone: !include_dir_list zones
+
+group: !include_dir_merge_named groups
+
+notify: !include_dir_list notifiers
+
+scene: !include_dir_list scenes
+
+automation: !include_dir_list automations
+
+#Activate!
+
+conversation:
+
+frontend:
+
+discovery:
+
+logbook:
+
+history:
+
+updater:
+
+sun:
+
+wemo:

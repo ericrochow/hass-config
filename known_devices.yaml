@@ -1,0 +1,13 @@
+erochow_ericphone:
+  name: erochow
+  mac: !secret ericphone_mac
+  picture: ""
+  track: yes
+  hide_if_away: no
+
+mrochow_maryphone:
+  name: mrochow
+  mac:  !secret maryphone_mac
+  picture: ""
+  track: yes
+  hide_if_away: no

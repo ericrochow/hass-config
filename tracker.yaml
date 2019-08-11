@@ -1,0 +1,25 @@
+- platform: owntracks
+  max_gps_accuracy: 200
+
+unifi:
+  controllers:
+    host: !secret unifi_host
+    site: !secret unifi_site
+    ssid_filter:
+      !secret unifi_ssid_list
+
+fortigate:
+  host: !secret fortohost
+  username: !secret fortiusernmae
+  api_key: !secret fortitoken
+
+
+device_tracker:
+  - platform: meraki
+    secret: !secret meraki_secret
+    validator: !secret meraki_validator
+  - platform: fortios
+    host: !secret fortiusername
+    token: !secret fortitoken
+
+
